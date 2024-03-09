@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     const fetchFile = async () => {
       try {
-        const response = await fetch('https://cdn-eu-hz-3.ufile.io/get/lxdmpme0')
+        const response = await fetch('https://eu4.easyupload.io/download/yp697n/eb470tpfnd4ygrlqiv1sw5rdktqmctlf')
         if (response.ok) {
           const data = await response.json(); // Atau response.text(), response.blob(), dll. sesuai format file
           setFileData(data);
