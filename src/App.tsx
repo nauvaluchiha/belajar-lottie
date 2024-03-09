@@ -2,7 +2,7 @@ import Lottie from "lottie-react";
 // import animationData from "./assets/lotties-jadi.json"
 // import animation from "./assets/animation.json";
 // import tesLottie from "./assets/tes.json";
-import tesVideo from "./assets/tes.mp4";
+// import tesVideo from "./assets/tes.mp4";
 import "./App.css";
 import { useState, useEffect } from 'react';
 
@@ -33,13 +33,13 @@ function App() {
       {/* <Lottie animationData={animation} /> */}
       <div className="video-section">
         <p>Video</p>
-        <video
+{/*         <video
           style={{ width: "100%", minWidth: "none" }}
           src={tesVideo}
           autoPlay
           loop
           muted
-        ></video>
+        ></video> */}
       </div>
       <div className="lottie-section">
         <p>Lottie</p>
