@@ -4,7 +4,7 @@ import Lottie from "lottie-react";
 // import tesLottie from "./assets/tes.json";
 import tesVideo from "./assets/tes.mp4";
 import "./App.css";
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 
 function App() {
